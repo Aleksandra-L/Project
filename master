@@ -1,1 +1,17 @@
 #Just new file
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+
+<meta charset="UTF-8">
+
+<title> Пример простой страницы html</title>
+</head>
+
+<body>
+
+База для создания веб-страницы на HTML
+</body>
+
+</html>
