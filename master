@@ -1,4 +1,3 @@
-#Just new file
 <!DOCTYPE html>
 
 <html lang="ru">
@@ -6,12 +5,17 @@
 
 <meta charset="UTF-8">
 
-<title> Пример простой страницы html</title>
+<title> Проект по созданию сайта</title>
 </head>
 
-<body>
-
-База для создания веб-страницы на HTML
+<body bgcolor = lightgrey>
+<center>
+      <h1>База для создания веб-страницы на HTML</h1>
+      <hr>
+      <p>Информация о нашем будущем сайте!</p>
+      <p style="color: #000000; background-color: #2E8B57">
+      Авторы проекта и контактная информация</p>
+</center>
 </body>
 
 </html>
