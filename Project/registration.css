@@ -1,0 +1,130 @@
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+.form-wrapper{
+    width: 600px;
+    height: 750px;
+    background: url(img/mak.png), rgba(255, 255, 255, 0.3);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: 75%;
+    /* overflow: scroll; */
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    position: relative;
+    margin: auto;
+    padding-left: 70px;
+}
+
+.registrate-button{
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-color: rgb(27, 92, 72);
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.6);
+    color: white;
+    background:  rgb(59, 100, 91);
+    line-height: 35px;
+}
+
+.registrate-button:hover{
+    background:  rgb(59, 141, 123);
+}
+
+p{
+    margin: 0;
+    margin-right: 30px;
+}
+
+.radio{
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    align-items: center;
+    vertical-align: middle;
+    width: 200px;
+}
+
+label {
+    display: block;
+}
+
+.radio label {
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    margin-right: 30px;
+}
+
+#agree-check{
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 16px;
+    line-height: 33px;
+}
+
+input[type=radio]{
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    outline: none;
+    transition: 0.2s all linear;
+    position: relative;
+    background: lavender;
+    border: 2px solid  rgba(0, 0, 0, 0.5);
+}
+
+input[type=radio]:checked{
+    position: relative;
+    border: 6px solid  rgba(0, 0, 0, 0.5);    
+}
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=tel],
+input[type=email]{
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 20px;
+    width: 500px;
+    background-color:lavender;
+    cursor: pointer;
+}
+
+#selection select{
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 20px;
+    width: 508px;
+    background-color:lavender;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+input[type=checkbox]{
+    appearance: none;
+    cursor: pointer;
+    border-radius: 20%;
+    top: 5px;   
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+    outline: none;
+    position: relative;
+    background: lavender;
+    border: 2px solid  rgba(0, 0, 0, 0.5);
+}
+
+input[type=checkbox]:checked{
+    background: lavender;
+    background-image: url(img/tick1.png);
+    background-size: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

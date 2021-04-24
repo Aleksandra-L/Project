@@ -1,0 +1,146 @@
+.main{
+    max-width: auto;
+    width: 1536px;
+    text-align: center;
+    background:linear-gradient(to bottom, #f392c3 0%, #ffffff 99%);
+    margin-left: -8px;
+}
+
+.header{
+  margin: 20px 20px 20px 20px;
+  float: left;
+}
+
+.floating-button,
+.Vxod-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 220px;
+    height:60px;
+    line-height: 45px;
+    border-radius: 4px;
+    margin: 20px 20px 20px 0px;
+    border-color: #B852D1;
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background: rgba(184, 82, 209, 0.5);
+  }
+
+  .payment,
+  .delivery,
+  .review,
+  .contacts {
+    text-decoration: none;
+    display: inline-block;
+    width: 202px;
+    height:53px;
+    line-height: 45px;
+    border-radius: 4px;
+    margin-right: 35px;
+    border-color: #FF44D6;
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background: rgba(255, 68, 214, 0.5);
+  }
+
+  .Kontacts {
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 16px;
+    margin: 20px 20px 20px 20px;;
+    text-align: right;
+    float: left;
+    line-height: 30px;
+    color:rgba(87, 24, 126, 0.94);
+  }
+
+ .background-gradient { 
+    max-width: auto;
+    width: 1536px;
+    height: 200px;
+    text-align: center;
+    text-emphasis-color: black;
+    background: linear-gradient(to top, #f392c3 0%, #ffffff 99%);
+    margin-left: -8px;
+} 
+
+.information 
+{  font-family: 'Vollkorn SC', sans-serif;
+  font-size: 48px;
+  margin: 20px 20px 20px 90px;
+  text-align: center;
+  line-height: 30px;
+  color:rgba(0, 0, 0, 1);
+}
+
+.fon
+{
+  max-width: auto;
+  width: 1536px;
+  height: 100px;
+  background: linear-gradient(to bottom left, #ffffff 0%, #ff6699 100%);
+  text-align: center;
+  margin: 0px 20px 20px 0px;
+  margin-left: -8px;
+ }
+
+  .bukety,
+  .rosy,
+  .flowers,
+  .akcii {
+    text-decoration: none;
+    display: inline-block;
+    width: 202px;
+    height: 53px;
+    margin: 0px 20px 20px 0px;
+    line-height: 45px;
+    border-radius: 4px;
+    margin-right: 100px;
+    border-color: #C71585;
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom left, #99ccff 0%, #ff66cc 100%);
+  }
+
+  .privetstvie
+  {
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 48px;
+    margin: 20px 20px 20px 90px;
+    text-align: center;
+    line-height: 100%;
+    color:rgba(0, 0, 0, 1);
+  }
+
+  .flower-picture
+  {
+    max-width: auto;
+    width: 1536px;
+    height: 518px;
+    text-align: center;
+    margin: 0px 20px 20px 0px;
+    margin-left: -8px;
+  }
+
+  .text-sait
+  {
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 24px;
+    margin: 20px 20px 20px 90px;
+    text-align: center;
+    line-height: 100%;
+    color:rgba(0, 0, 0, 1);
+  }
+
+  .flower-picture-1
+  {
+    max-width: auto;
+    width: 541px;
+    height: 224px;
+    margin: 0px 20px 20px 500px;
+  }

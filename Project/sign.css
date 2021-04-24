@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+}
+
+.form-wrapper{
+    width: 500px;
+    height: 600px;
+    background: url(img/flower.png), rgba(255, 255, 255, 0.3);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: 75%;
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 100px;
+    margin: auto;
+}
+
+.sign-button{
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-color: rgb(27, 92, 72);
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.6);
+    color: white;
+    background:  rgb(59, 100, 91);
+    line-height: 35px;
+}
+
+.sign-button:hover{
+    background:  rgb(59, 141, 123);
+}
+
+label {
+    display: block;
+}
+
+#private{
+    font-family: 'Vollkorn SC', sans-serif;
+    font-size: 16px;
+    line-height: 33px;
+}
+
+input[type=text],
+input[type=password]{
+    font-family: 'Vollkorn SC', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    width: 400px;
+    background-color:lavender;
+    cursor: pointer;
+}
+
+input[type=checkbox]{
+    appearance: none;
+    cursor: pointer;
+    border-radius: 20%;
+    top: 5px;   
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+    outline: none;
+    position: relative;
+    background: lavender;
+    border: 2px solid  rgba(0, 0, 0, 0.5);
+}
+
+input[type=checkbox]:checked{
+    background: lavender;
+    background-image: url(img/tick1.png);
+    background-size: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

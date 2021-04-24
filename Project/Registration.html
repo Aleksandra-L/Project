@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <html lang="ru">
+    <link href="http://fonts.cdnfonts.com/css/vollkorn-sc" rel="stylesheet">
+    <link rel = stylesheet href = "registration.css">
+    <title> Зарегистрироваться </title>
+   
+</head>
+<body>
+    <div class="form-wrapper">
+        <h1>Регистрация</h1>
+            <form method="POST" action="submit.php">
+                <div>
+                    <label for="login">Логин</label>
+                    <input type="text" name="login" required>
+                </div>
+                <div>
+                    <label for="password">Пароль</label>
+                    <input type="password" name="password" required>
+                </div>
+                <div>
+                    <label for="first-name">Фамилия</label>
+                    <input type="text" name="first-name" required>
+                </div>
+                <div>
+                    <label for="name">Имя</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="radio">
+                    <p>Пол</p>
+                    <div class="radio-male">
+                        <input type="radio" name="sex" value="0" checked>
+                        <label for="radio-male">Мужской</label>                        
+                    </div>                    
+                    <div class="radio-female">
+                        <input type="radio" name="sex" value="1">
+                        <label for="radio-female">Женский</label>
+                    </div>                   
+                </div>
+                <div>
+                    <label for="birthdate">Дата рождения</label>
+                    <input type="date" name="birthdate" required>
+                </div>
+                <div>
+                    <label for="phone">Телефон</label>
+                    <input type="tel" pattern="(\+?\d[-.]*){7,13}" name="phone" required>
+                </div>
+                <div>
+                    <label for="email">Электронная почта</label>
+                    <input type="email" name="email">
+                </div>
+                <div id="selection">
+                    <label for="city">Выберите ваш город</label>
+                    <select name="city">
+                        <option value="Moscow">Москва</option>
+                        <option value="Saint-Petersburg">Санкт-Петербург</option>
+                        <option value="Tver">Тверь</option>
+                        <option value="Nizhny Novgorod">Нижний Новгород</option>
+                        <option value="Krasnodar">Краснодар</option>
+                    </select>
+                </div>
+                <div id="agree-check">
+                    <label>
+                        <input type="checkbox" name="check" value="1">Я согласен с условиями соглашения об обработке данных
+                    </label> 
+                </div>
+                <button type="submit" class="registrate-button"> Зарегистрироваться</button>
+            </form>
+        </div>
+</body>
+</html>
